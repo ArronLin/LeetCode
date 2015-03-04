@@ -1,5 +1,5 @@
-#include "../MyLeetCode/stdafx.h"
-#include <vector>
+
+#include "common.h"
 
 class TwoSum {
 public:
@@ -7,7 +7,7 @@ public:
         int i = 1;
         multimap<int, int> temp;
         //for(vector<int>::iterator it = numbers.begin(); it != numbers.end(); it++, i++)
-        for(int i = 0; i < numbers.size(); ++i)
+		for(size_t i = 0; i < numbers.size(); ++i)
         {
             temp.insert(pair<int, int>(numbers[i], i+1));
         }
