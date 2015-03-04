@@ -85,7 +85,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\TwoSum\TwoSum.cpp" />
+    <ClCompile Include="..\Questions\MedianofTwoSortedArrays\MedianofTwoSortedArrays.cpp" />
+    <ClCompile Include="..\Questions\TwoSum\TwoSum.cpp" />
     <ClCompile Include="MyLeetCode.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>

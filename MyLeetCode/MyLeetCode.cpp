@@ -2,7 +2,8 @@
 //
 
 #include "stdafx.h"
-#include "../TwoSum/TwoSum.cpp"
+#include "../Questions/TwoSum/TwoSum.cpp"
+#include "../Questions/MedianofTwoSortedArrays/MedianofTwoSortedArrays.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
