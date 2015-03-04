@@ -1,4 +1,7 @@
-class Solution {
+#include "../MyLeetCode/stdafx.h"
+#include <vector>
+
+class TwoSum {
 public:
     vector<int> twoSum(vector<int> &numbers, int target) {
         int i = 1;
