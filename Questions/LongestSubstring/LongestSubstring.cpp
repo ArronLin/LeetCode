@@ -9,8 +9,7 @@ public:
             
         int hashTable[256] = {0};
         int nSlowIndex, nQuickIndex;
-        nSlowIndex = 0;
-		nQuickIndex = 1;
+        nSlowIndex = nQuickIndex = 0;
         int nMaxSubLen = 0;
         
 		while(nQuickIndex < nSize && nSize-nSlowIndex > nMaxSubLen)
