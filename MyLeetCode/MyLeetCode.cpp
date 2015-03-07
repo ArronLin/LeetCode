@@ -11,7 +11,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	LongestPalindromicSubstring obj;
-	string sRet = obj.longestPalindromeDP("bb");
+	string sRet = obj.longestPalindrome("b");
 	return 0;
 }
 
