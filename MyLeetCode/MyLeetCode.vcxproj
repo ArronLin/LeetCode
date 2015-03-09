@@ -89,6 +89,7 @@
     <ClCompile Include="..\Questions\LongestPalindromicSubstring\LongestPalindromicSubstring.cpp" />
     <ClCompile Include="..\Questions\LongestSubstring\LongestSubstring.cpp" />
     <ClCompile Include="..\Questions\MedianofTwoSortedArrays\MedianofTwoSortedArrays.cpp" />
+    <ClCompile Include="..\Questions\ReverseInteger\ReverseInteger.cpp" />
     <ClCompile Include="..\Questions\TwoSum\TwoSum.cpp" />
     <ClCompile Include="..\Questions\ZigZagConversion\ZigZagConversion.cpp" />
     <ClCompile Include="MyLeetCode.cpp" />
