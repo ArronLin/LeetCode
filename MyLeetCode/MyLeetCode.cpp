@@ -9,11 +9,12 @@
 #include "../Questions/LongestPalindromicSubstring/LongestPalindromicSubstring.cpp"
 #include "../Questions/ZigZagConversion/ZigZagConversion.cpp"
 #include "../Questions/ReverseInteger/ReverseInteger.cpp"
+#include "../Questions/StringtoInteger/StringtoInteger.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ReverseInteger obj;
-	int nRet = obj.reverse(-2147483648);
+	StringtoInteger obj;
+	int nRet = obj.atoi("123");
 	return 0;
 }
 
