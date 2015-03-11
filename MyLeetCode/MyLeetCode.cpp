@@ -10,11 +10,12 @@
 #include "../Questions/ZigZagConversion/ZigZagConversion.cpp"
 #include "../Questions/ReverseInteger/ReverseInteger.cpp"
 #include "../Questions/StringtoInteger/StringtoInteger.cpp"
+#include "../Questions/PalindromeNumber/PalindromeNumber.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	StringtoInteger obj;
-	int nRet = obj.atoi("123");
+	PalindromeNumber obj;
+	obj.isPalindrome(123321);
 	return 0;
 }
 
