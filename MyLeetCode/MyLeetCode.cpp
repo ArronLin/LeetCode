@@ -11,11 +11,12 @@
 #include "../Questions/ReverseInteger/ReverseInteger.cpp"
 #include "../Questions/StringtoInteger/StringtoInteger.cpp"
 #include "../Questions/PalindromeNumber/PalindromeNumber.cpp"
+#include "../Questions/RegularExpressionMatching/RegularExpressionMatching.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	PalindromeNumber obj;
-	obj.isPalindrome(123321);
+	RegularExpressionMatching obj;
+	bool bRet = obj.isMatch("ab", "c*a*b");
 	return 0;
 }
 

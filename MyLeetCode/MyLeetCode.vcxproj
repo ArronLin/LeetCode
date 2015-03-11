@@ -90,6 +90,7 @@
     <ClCompile Include="..\Questions\LongestSubstring\LongestSubstring.cpp" />
     <ClCompile Include="..\Questions\MedianofTwoSortedArrays\MedianofTwoSortedArrays.cpp" />
     <ClCompile Include="..\Questions\PalindromeNumber\PalindromeNumber.cpp" />
+    <ClCompile Include="..\Questions\RegularExpressionMatching\RegularExpressionMatching.cpp" />
     <ClCompile Include="..\Questions\ReverseInteger\ReverseInteger.cpp" />
     <ClCompile Include="..\Questions\StringtoInteger\StringtoInteger.cpp" />
     <ClCompile Include="..\Questions\TwoSum\TwoSum.cpp" />
