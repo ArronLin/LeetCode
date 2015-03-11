@@ -12,11 +12,14 @@
 #include "../Questions/StringtoInteger/StringtoInteger.cpp"
 #include "../Questions/PalindromeNumber/PalindromeNumber.cpp"
 #include "../Questions/RegularExpressionMatching/RegularExpressionMatching.cpp"
+#include "../Questions/ContainerWithMostWater/ContainerWithMostWater.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	RegularExpressionMatching obj;
-	bool bRet = obj.isMatch("ab", "c*a*b");
+	ContainerWithMostWater obj;
+	int aHeight[] = {1, 2, 4, 2, 4, 6,3, 2, 9};
+	vector<int> height (aHeight, aHeight + sizeof(aHeight) / sizeof(int) );
+	obj.maxArea(height);
 	return 0;
 }
 
