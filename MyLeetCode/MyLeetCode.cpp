@@ -14,11 +14,12 @@
 #include "../Questions/RegularExpressionMatching/RegularExpressionMatching.cpp"
 #include "../Questions/ContainerWithMostWater/ContainerWithMostWater.cpp"
 #include "../Questions/IntegertoRoman/IntegertoRoman.cpp"
+#include "../Questions/RomantoInteger/RomantoInteger.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	IntegertoRoman obj;
-	string romanStr = obj.intToRoman(4000);
+	RomantoInteger obj;
+	obj.romanToInt("VII");
 
 	return 0;
 }

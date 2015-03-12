@@ -94,6 +94,7 @@
     <ClCompile Include="..\Questions\PalindromeNumber\PalindromeNumber.cpp" />
     <ClCompile Include="..\Questions\RegularExpressionMatching\RegularExpressionMatching.cpp" />
     <ClCompile Include="..\Questions\ReverseInteger\ReverseInteger.cpp" />
+    <ClCompile Include="..\Questions\RomantoInteger\RomantoInteger.cpp" />
     <ClCompile Include="..\Questions\StringtoInteger\StringtoInteger.cpp" />
     <ClCompile Include="..\Questions\TwoSum\TwoSum.cpp" />
     <ClCompile Include="..\Questions\ZigZagConversion\ZigZagConversion.cpp" />
