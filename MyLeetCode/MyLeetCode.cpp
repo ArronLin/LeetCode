@@ -16,11 +16,14 @@
 #include "../Questions/IntegertoRoman/IntegertoRoman.cpp"
 #include "../Questions/RomantoInteger/RomantoInteger.cpp"
 #include "../Questions/LongestCommonPrefix/LongestCommonPrefix.cpp"
+#include "../Questions/3Sum/3Sum.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LongestCommonPrefix obj;
-	
+	ThreeSum obj;
+	int arry[] = {-4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0};
+	vector<int> vAry(arry, arry+sizeof(arry)/sizeof(int));
+	obj.threeSum(vAry);
 
 	return 0;
 }
