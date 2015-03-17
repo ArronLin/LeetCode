@@ -18,13 +18,12 @@
 #include "../Questions/LongestCommonPrefix/LongestCommonPrefix.cpp"
 #include "../Questions/3Sum/3Sum.cpp"
 #include "../Questions/3SumClosest/3SumClosest.cpp"
+#include "../Questions/LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ThreeSumCloset obj;
-	int arry[] = {1,1,1,0};
-	vector<int> vAry(arry, arry+sizeof(arry)/sizeof(int));
-	obj.threeSumClosest(vAry, 100);
+	LetterCombinationsofaPhoneNumber obj;
+	vector<string> vRet = obj.letterCombinations("234");
 
 	return 0;
 }
