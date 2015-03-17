@@ -15,11 +15,12 @@
 #include "../Questions/ContainerWithMostWater/ContainerWithMostWater.cpp"
 #include "../Questions/IntegertoRoman/IntegertoRoman.cpp"
 #include "../Questions/RomantoInteger/RomantoInteger.cpp"
+#include "../Questions/LongestCommonPrefix/LongestCommonPrefix.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	RomantoInteger obj;
-	obj.romanToInt("VII");
+	LongestCommonPrefix obj;
+	
 
 	return 0;
 }

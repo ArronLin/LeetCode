@@ -88,6 +88,7 @@
     <ClCompile Include="..\Questions\AddTwoNums\AddTwoNums.cpp" />
     <ClCompile Include="..\Questions\ContainerWithMostWater\ContainerWithMostWater.cpp" />
     <ClCompile Include="..\Questions\IntegertoRoman\IntegertoRoman.cpp" />
+    <ClCompile Include="..\Questions\LongestCommonPrefix\LongestCommonPrefix.cpp" />
     <ClCompile Include="..\Questions\LongestPalindromicSubstring\LongestPalindromicSubstring.cpp" />
     <ClCompile Include="..\Questions\LongestSubstring\LongestSubstring.cpp" />
     <ClCompile Include="..\Questions\MedianofTwoSortedArrays\MedianofTwoSortedArrays.cpp" />
