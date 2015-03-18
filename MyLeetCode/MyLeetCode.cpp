@@ -19,11 +19,11 @@
 #include "../Questions/3Sum/3Sum.cpp"
 #include "../Questions/3SumClosest/3SumClosest.cpp"
 #include "../Questions/LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.cpp"
+#include "../Questions/4Sum/4Sum.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LetterCombinationsofaPhoneNumber obj;
-	vector<string> vRet = obj.letterCombinations("234");
+	FourSum obj;
 
 	return 0;
 }
