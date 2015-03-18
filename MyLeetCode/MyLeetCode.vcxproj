@@ -90,6 +90,7 @@
     <ClCompile Include="..\Questions\4Sum\4Sum.cpp" />
     <ClCompile Include="..\Questions\AddTwoNums\AddTwoNums.cpp" />
     <ClCompile Include="..\Questions\ContainerWithMostWater\ContainerWithMostWater.cpp" />
+    <ClCompile Include="..\Questions\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="..\Questions\IntegertoRoman\IntegertoRoman.cpp" />
     <ClCompile Include="..\Questions\LetterCombinationsofaPhoneNumber\LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="..\Questions\LongestCommonPrefix\LongestCommonPrefix.cpp" />

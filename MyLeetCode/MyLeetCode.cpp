@@ -23,10 +23,12 @@
 #include "../Questions/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.cpp"
 #include "../Questions/ValidParentheses/ValidParentheses.cpp"
 #include "../Questions/MergeTwoSortedLists/MergeTwoSortedLists.cpp"
+#include "../Questions/GenerateParentheses/GenerateParentheses.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MergeTwoSortedLists obj;
+	GenerateParentheses obj;
+	vector<string> vRet = obj.generateParenthesis(3);
 
 	return 0;
 }
