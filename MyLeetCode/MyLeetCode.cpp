@@ -22,10 +22,11 @@
 #include "../Questions/4Sum/4Sum.cpp"
 #include "../Questions/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.cpp"
 #include "../Questions/ValidParentheses/ValidParentheses.cpp"
+#include "../Questions/MergeTwoSortedLists/MergeTwoSortedLists.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ValidParentheses obj;
+	MergeTwoSortedLists obj;
 
 	return 0;
 }
