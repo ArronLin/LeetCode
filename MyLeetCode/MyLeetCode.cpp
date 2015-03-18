@@ -20,10 +20,11 @@
 #include "../Questions/3SumClosest/3SumClosest.cpp"
 #include "../Questions/LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.cpp"
 #include "../Questions/4Sum/4Sum.cpp"
+#include "../Questions/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	FourSum obj;
+	RemoveNthNodeFromEndofList obj;
 
 	return 0;
 }
