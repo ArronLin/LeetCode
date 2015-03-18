@@ -21,10 +21,11 @@
 #include "../Questions/LetterCombinationsofaPhoneNumber/LetterCombinationsofaPhoneNumber.cpp"
 #include "../Questions/4Sum/4Sum.cpp"
 #include "../Questions/RemoveNthNodeFromEndofList/RemoveNthNodeFromEndofList.cpp"
+#include "../Questions/ValidParentheses/ValidParentheses.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	RemoveNthNodeFromEndofList obj;
+	ValidParentheses obj;
 
 	return 0;
 }

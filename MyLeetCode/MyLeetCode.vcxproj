@@ -103,6 +103,7 @@
     <ClCompile Include="..\Questions\RomantoInteger\RomantoInteger.cpp" />
     <ClCompile Include="..\Questions\StringtoInteger\StringtoInteger.cpp" />
     <ClCompile Include="..\Questions\TwoSum\TwoSum.cpp" />
+    <ClCompile Include="..\Questions\ValidParentheses\ValidParentheses.cpp" />
     <ClCompile Include="..\Questions\ZigZagConversion\ZigZagConversion.cpp" />
     <ClCompile Include="MyLeetCode.cpp" />
     <ClCompile Include="stdafx.cpp" />
