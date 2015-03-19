@@ -34,8 +34,8 @@ public:
 		ListNode *pRet = NULL;
 		while(nCurSize > 1)
 		{
-			int nHalfSize = nCurSize/2;
-			for(int i = 0; i < nHalfSize; ++i)
+			int nHalfSize = (nCurSize+1)/2;
+			for(int i = 0; i < nHalfSize && i+nHalfSize < nCurSize; ++i)
 			{
 				ListNode *l1 = lists[i];
 				ListNode *l2 = lists[i+nHalfSize];
@@ -43,7 +43,7 @@ public:
 				lists[i] = pRet;
 			}
 
-			nCurSize = nCurSize%2? nHalfSize+1 : nHalfSize;
+			nCurSize = nHalfSize;
 		}
 
 		return pRet;
