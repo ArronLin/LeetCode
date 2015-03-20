@@ -103,6 +103,7 @@
     <ClCompile Include="..\Questions\RegularExpressionMatching\RegularExpressionMatching.cpp" />
     <ClCompile Include="..\Questions\RemoveNthNodeFromEndofList\RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="..\Questions\ReverseInteger\ReverseInteger.cpp" />
+    <ClCompile Include="..\Questions\ReverseNodesink-Group\ReverseNodesink-Group.cpp" />
     <ClCompile Include="..\Questions\RomantoInteger\RomantoInteger.cpp" />
     <ClCompile Include="..\Questions\StringtoInteger\StringtoInteger.cpp" />
     <ClCompile Include="..\Questions\SwapNodesinPairs\SwapNodesinPairs.cpp" />

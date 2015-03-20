@@ -26,13 +26,11 @@
 #include "../Questions/GenerateParentheses/GenerateParentheses.cpp"
 #include "../Questions/MergekSortedLists/MergekSortedLists.cpp"
 #include "../Questions/SwapNodesinPairs/SwapNodesinPairs.cpp"
+#include "../Questions/ReverseNodesink-Group/ReverseNodesink-Group.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	SwapNodesinPairs obj;
-	int ary[] = {1,2,3,4,5,6};
-	ListNode *pHead = ConstructLinkList(ary, 6);
-	pHead = obj.swapPairs(pHead);
+	ReverseNodesink_Group obj;
 
 	return 0;
 }
