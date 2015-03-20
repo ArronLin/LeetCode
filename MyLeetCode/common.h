@@ -16,3 +16,5 @@ struct ListNode {
 	ListNode *next;
 	ListNode(int x) : val(x), next(NULL) {}
 };
+
+ListNode* ConstructLinkList(int ary[], int n);

@@ -25,43 +25,15 @@
 #include "../Questions/MergeTwoSortedLists/MergeTwoSortedLists.cpp"
 #include "../Questions/GenerateParentheses/GenerateParentheses.cpp"
 #include "../Questions/MergekSortedLists/MergekSortedLists.cpp"
-
-ListNode* ConstructLinkList(int ary[], int n)
-{
-	ListNode *pHead = NULL;
-	ListNode *pPre = NULL;
-	for(int i = 0; i < n; ++i)
-	{
-		ListNode *pNode = new ListNode(ary[i]);
-		if(!pPre)
-		{
-			pHead = pNode;
-			pPre = pNode;
-		}
-		else
-		{
-			pPre->next = pNode;
-			pPre = pNode;
-		}
-	}
-
-	return pHead;
-}
+#include "../Questions/SwapNodesinPairs/SwapNodesinPairs.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MergekSortedLists obj;
-	ListNode *p1, *p2, *p3;
-	p1 = p2 = p3 = NULL;
-	int ary1[] = {-2};
-	p2 = ConstructLinkList(ary1, 1);
-	int ary2[] = {-3,-2,1};
-	p3 = ConstructLinkList(ary2, 3);
-	vector<ListNode*> lists;
-	lists.push_back(p1);lists.push_back(p2);lists.push_back(p3);
+	SwapNodesinPairs obj;
+	int ary[] = {1,2,3,4,5,6};
+	ListNode *pHead = ConstructLinkList(ary, 6);
+	pHead = obj.swapPairs(pHead);
 
-	ListNode *pRet = obj.mergeKLists(lists);
-	
 	return 0;
 }
 
