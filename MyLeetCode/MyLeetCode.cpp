@@ -31,6 +31,9 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	ReverseNodesink_Group obj;
+	int ary[] = {1,2,3,4,5,6,7};
+	ListNode *head = ConstructLinkList(ary, 7);
+	ListNode *pRet = obj.reverseKGroup(head, 3);
 
 	return 0;
 }
