@@ -27,13 +27,13 @@
 #include "../Questions/MergekSortedLists/MergekSortedLists.cpp"
 #include "../Questions/SwapNodesinPairs/SwapNodesinPairs.cpp"
 #include "../Questions/ReverseNodesink-Group/ReverseNodesink-Group.cpp"
+#include "../Questions/RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.cpp"
+#include "../Questions/ImplementstrStr()/ImplementstrStr.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ReverseNodesink_Group obj;
-	int ary[] = {1,2,3,4,5,6,7};
-	ListNode *head = ConstructLinkList(ary, 7);
-	ListNode *pRet = obj.reverseKGroup(head, 3);
+	ImplementstrStr obj;
+	int nRet = obj.strStr("abcd", "bc");
 
 	return 0;
 }

@@ -91,6 +91,7 @@
     <ClCompile Include="..\Questions\AddTwoNums\AddTwoNums.cpp" />
     <ClCompile Include="..\Questions\ContainerWithMostWater\ContainerWithMostWater.cpp" />
     <ClCompile Include="..\Questions\GenerateParentheses\GenerateParentheses.cpp" />
+    <ClCompile Include="..\Questions\ImplementstrStr()\ImplementstrStr.cpp" />
     <ClCompile Include="..\Questions\IntegertoRoman\IntegertoRoman.cpp" />
     <ClCompile Include="..\Questions\LetterCombinationsofaPhoneNumber\LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="..\Questions\LongestCommonPrefix\LongestCommonPrefix.cpp" />
@@ -101,6 +102,7 @@
     <ClCompile Include="..\Questions\MergeTwoSortedLists\MergeTwoSortedLists.cpp" />
     <ClCompile Include="..\Questions\PalindromeNumber\PalindromeNumber.cpp" />
     <ClCompile Include="..\Questions\RegularExpressionMatching\RegularExpressionMatching.cpp" />
+    <ClCompile Include="..\Questions\RemoveDuplicatesfromSortedArray\RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="..\Questions\RemoveNthNodeFromEndofList\RemoveNthNodeFromEndofList.cpp" />
     <ClCompile Include="..\Questions\ReverseInteger\ReverseInteger.cpp" />
     <ClCompile Include="..\Questions\ReverseNodesink-Group\ReverseNodesink-Group.cpp" />
