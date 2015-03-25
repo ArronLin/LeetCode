@@ -29,11 +29,16 @@
 #include "../Questions/ReverseNodesink-Group/ReverseNodesink-Group.cpp"
 #include "../Questions/RemoveDuplicatesfromSortedArray/RemoveDuplicatesfromSortedArray.cpp"
 #include "../Questions/ImplementstrStr()/ImplementstrStr.cpp"
+#include "../Questions/DivideTwoIntegers/DivideTwoIntegers.cpp"
+#include "../Questions/SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ImplementstrStr obj;
-	int nRet = obj.strStr("abcd", "bc");
+	SubstringwithConcatenationofAllWords obj;
+	vector<int> vRet;
+	vector<string> vWords;
+	vWords.push_back("aa"); vWords.push_back("aa");
+	vRet = obj.findSubstring("aaa", vWords);
 
 	return 0;
 }
