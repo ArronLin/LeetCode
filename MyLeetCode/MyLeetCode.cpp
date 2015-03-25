@@ -31,14 +31,14 @@
 #include "../Questions/ImplementstrStr()/ImplementstrStr.cpp"
 #include "../Questions/DivideTwoIntegers/DivideTwoIntegers.cpp"
 #include "../Questions/SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.cpp"
+#include "../Questions/NextPermutation/NextPermutation.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	SubstringwithConcatenationofAllWords obj;
-	vector<int> vRet;
-	vector<string> vWords;
-	vWords.push_back("aa"); vWords.push_back("aa");
-	vRet = obj.findSubstring("aaa", vWords);
+	NextPermutation obj;
+	int ary[] = {1, 3, 2};
+	vector<int> num(ary, ary+3);
+	obj.nextPermutation(num);
 
 	return 0;
 }
