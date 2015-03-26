@@ -98,6 +98,7 @@
     <ClCompile Include="..\Questions\LongestCommonPrefix\LongestCommonPrefix.cpp" />
     <ClCompile Include="..\Questions\LongestPalindromicSubstring\LongestPalindromicSubstring.cpp" />
     <ClCompile Include="..\Questions\LongestSubstring\LongestSubstring.cpp" />
+    <ClCompile Include="..\Questions\LongestValidParentheses\LongestValidParentheses.cpp" />
     <ClCompile Include="..\Questions\MedianofTwoSortedArrays\MedianofTwoSortedArrays.cpp" />
     <ClCompile Include="..\Questions\MergekSortedLists\MergekSortedLists.cpp" />
     <ClCompile Include="..\Questions\MergeTwoSortedLists\MergeTwoSortedLists.cpp" />

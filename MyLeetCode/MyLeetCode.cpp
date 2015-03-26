@@ -32,13 +32,12 @@
 #include "../Questions/DivideTwoIntegers/DivideTwoIntegers.cpp"
 #include "../Questions/SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.cpp"
 #include "../Questions/NextPermutation/NextPermutation.cpp"
+#include "../Questions/LongestValidParentheses/LongestValidParentheses.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	NextPermutation obj;
-	int ary[] = {1, 3, 2};
-	vector<int> num(ary, ary+3);
-	obj.nextPermutation(num);
+	LongestValidParentheses obj;
+	int nRet = obj.longestValidParentheses("()(())");
 
 	return 0;
 }
