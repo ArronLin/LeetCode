@@ -34,12 +34,12 @@
 #include "../Questions/NextPermutation/NextPermutation.cpp"
 #include "../Questions/LongestValidParentheses/LongestValidParentheses.cpp"
 #include "../Questions/SearchinRotatedSortedArray/SearchinRotatedSortedArray.cpp"
+#include "../Questions/SearchforaRange/SearchforaRange.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	SearchinRotatedSortedArray obj;
-	int ary[] = {3, 1};
-	int nRet = obj.search(ary, 2, 1);
+	SearchforaRange obj;
+
 	return 0;
 }
 
