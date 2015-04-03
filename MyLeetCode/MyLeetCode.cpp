@@ -33,12 +33,13 @@
 #include "../Questions/SubstringwithConcatenationofAllWords/SubstringwithConcatenationofAllWords.cpp"
 #include "../Questions/NextPermutation/NextPermutation.cpp"
 #include "../Questions/LongestValidParentheses/LongestValidParentheses.cpp"
+#include "../Questions/SearchinRotatedSortedArray/SearchinRotatedSortedArray.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LongestValidParentheses obj;
-	int nRet = obj.longestValidParentheses("()(())");
-
+	SearchinRotatedSortedArray obj;
+	int ary[] = {3, 1};
+	int nRet = obj.search(ary, 2, 1);
 	return 0;
 }
 
