@@ -37,19 +37,20 @@
 #include "../Questions/SearchforaRange/SearchforaRange.cpp"
 #include "../Questions/SearchInsertPosition/SearchInsertPosition.cpp"
 #include "../Questions/ValidSudoku/ValidSudoku.cpp"
+#include "../Questions/SudokuSolver/SudokuSolver.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	ValidSudoku obj;
-	char ary1[] = ".........";
-	char ary2[] = ".........";
-	char ary3[] = ".9......1";
-	char ary4[] = "8........";
-	char ary5[] = ".99357...";
-	char ary6[] = ".......4.";
-	char ary7[] = "...8.....";
-	char ary8[] = ".1....4.9";
-	char ary9[] = "...5.4...";
+	SudokuSolver obj;
+	char ary1[] = "..9748...";
+	char ary2[] = "7........";
+	char ary3[] = ".2.1.9...";
+	char ary4[] = "..7...24.";
+	char ary5[] = ".64.1.59.";
+	char ary6[] = ".98...3..";
+	char ary7[] = "...8.3.2.";
+	char ary8[] = "........6";
+	char ary9[] = "...2759..";
 	vector<char> vec1(ary1, ary1+9);
 	vector<char> vec2(ary2, ary2+9);
 	vector<char> vec3(ary3, ary3+9);
@@ -71,7 +72,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	vVec.push_back(vec8);
 	vVec.push_back(vec9);
 
-	obj.isValidSudoku(vVec);
+	obj.solveSudoku(vVec);
 
 	return 0;
 }

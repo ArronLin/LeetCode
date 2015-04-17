@@ -115,6 +115,7 @@
     <ClCompile Include="..\Questions\SearchInsertPosition\SearchInsertPosition.cpp" />
     <ClCompile Include="..\Questions\StringtoInteger\StringtoInteger.cpp" />
     <ClCompile Include="..\Questions\SubstringwithConcatenationofAllWords\SubstringwithConcatenationofAllWords.cpp" />
+    <ClCompile Include="..\Questions\SudokuSolver\SudokuSolver.cpp" />
     <ClCompile Include="..\Questions\SwapNodesinPairs\SwapNodesinPairs.cpp" />
     <ClCompile Include="..\Questions\TwoSum\TwoSum.cpp" />
     <ClCompile Include="..\Questions\ValidParentheses\ValidParentheses.cpp" />
