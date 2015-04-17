@@ -38,42 +38,12 @@
 #include "../Questions/SearchInsertPosition/SearchInsertPosition.cpp"
 #include "../Questions/ValidSudoku/ValidSudoku.cpp"
 #include "../Questions/SudokuSolver/SudokuSolver.cpp"
+#include "../Questions/CountandSay/CountandSay.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	SudokuSolver obj;
-	char ary1[] = "..9748...";
-	char ary2[] = "7........";
-	char ary3[] = ".2.1.9...";
-	char ary4[] = "..7...24.";
-	char ary5[] = ".64.1.59.";
-	char ary6[] = ".98...3..";
-	char ary7[] = "...8.3.2.";
-	char ary8[] = "........6";
-	char ary9[] = "...2759..";
-	vector<char> vec1(ary1, ary1+9);
-	vector<char> vec2(ary2, ary2+9);
-	vector<char> vec3(ary3, ary3+9);
-	vector<char> vec4(ary4, ary4+9);
-	vector<char> vec5(ary5, ary5+9);
-	vector<char> vec6(ary6, ary6+9);
-	vector<char> vec7(ary7, ary7+9);
-	vector<char> vec8(ary8, ary8+9);
-	vector<char> vec9(ary9, ary9+9);
-
-	vector<vector<char>> vVec;
-	vVec.push_back(vec1);
-	vVec.push_back(vec2);
-	vVec.push_back(vec3);
-	vVec.push_back(vec4);
-	vVec.push_back(vec5);
-	vVec.push_back(vec6);
-	vVec.push_back(vec7);
-	vVec.push_back(vec8);
-	vVec.push_back(vec9);
-
-	obj.solveSudoku(vVec);
-
+	CountandSay obj;
+	string sRet = obj.countAndSay(1);
 	return 0;
 }
 
