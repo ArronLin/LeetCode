@@ -40,13 +40,14 @@
 #include "../Questions/SudokuSolver/SudokuSolver.cpp"
 #include "../Questions/CountandSay/CountandSay.cpp"
 #include "../Questions/CombinationSum/CombinationSum.cpp"
+#include "../Questions/CombinationSumII/CombinationSumII.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	CombinationSum obj;
+	CombinationSumII obj;
 	vector<int> candidates;
 	candidates.push_back(1); candidates.push_back(2);
-	obj.combinationSum(candidates, 2);
+	obj.combinationSum2(candidates, 2);
 	
 	return 0;
 }
