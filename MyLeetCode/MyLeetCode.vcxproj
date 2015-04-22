@@ -106,6 +106,7 @@
     <ClCompile Include="..\Questions\MedianofTwoSortedArrays\MedianofTwoSortedArrays.cpp" />
     <ClCompile Include="..\Questions\MergekSortedLists\MergekSortedLists.cpp" />
     <ClCompile Include="..\Questions\MergeTwoSortedLists\MergeTwoSortedLists.cpp" />
+    <ClCompile Include="..\Questions\MultiplyStrings\MultiplyStrings.cpp" />
     <ClCompile Include="..\Questions\NextPermutation\NextPermutation.cpp" />
     <ClCompile Include="..\Questions\PalindromeNumber\PalindromeNumber.cpp" />
     <ClCompile Include="..\Questions\RegularExpressionMatching\RegularExpressionMatching.cpp" />

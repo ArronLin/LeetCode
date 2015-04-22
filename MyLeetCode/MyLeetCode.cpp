@@ -43,11 +43,13 @@
 #include "../Questions/CombinationSumII/CombinationSumII.cpp"
 #include "../Questions/FirstMissingPositive/FirstMissingPositive.cpp"
 #include "../Questions/TrappingRainWater/TrappingRainWater.cpp"
+#include "../Questions/MultiplyStrings/MultiplyStrings.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	TrappingRainWater obj;
-	
+	MultiplyStrings obj;
+	obj.multiply("23", "15");
+
 	return 0;
 }
 
