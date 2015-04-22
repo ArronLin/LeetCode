@@ -44,11 +44,12 @@
 #include "../Questions/FirstMissingPositive/FirstMissingPositive.cpp"
 #include "../Questions/TrappingRainWater/TrappingRainWater.cpp"
 #include "../Questions/MultiplyStrings/MultiplyStrings.cpp"
+#include "../Questions/WildcardMatching/WildcardMatching.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MultiplyStrings obj;
-	obj.multiply("23", "15");
+	WildcardMatching obj;
+	bool bRet = obj.isMatch("abefcdgiescdfimde", "ab*cd?i*de");
 
 	return 0;
 }
