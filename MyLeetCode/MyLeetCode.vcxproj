@@ -94,6 +94,7 @@
     <ClCompile Include="..\Questions\CombinationSum\CombinationSum.cpp" />
     <ClCompile Include="..\Questions\ContainerWithMostWater\ContainerWithMostWater.cpp" />
     <ClCompile Include="..\Questions\DivideTwoIntegers\DivideTwoIntegers.cpp" />
+    <ClCompile Include="..\Questions\FirstMissingPositive\FirstMissingPositive.cpp" />
     <ClCompile Include="..\Questions\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="..\Questions\ImplementstrStr()\ImplementstrStr.cpp" />
     <ClCompile Include="..\Questions\IntegertoRoman\IntegertoRoman.cpp" />

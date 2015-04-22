@@ -41,13 +41,18 @@
 #include "../Questions/CountandSay/CountandSay.cpp"
 #include "../Questions/CombinationSum/CombinationSum.cpp"
 #include "../Questions/CombinationSumII/CombinationSumII.cpp"
+#include "../Questions/FirstMissingPositive/FirstMissingPositive.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	CombinationSumII obj;
-	vector<int> candidates;
-	candidates.push_back(1); candidates.push_back(2);
-	obj.combinationSum2(candidates, 2);
+	FirstMissingPositive obj;
+	vector<int> nums;
+	nums.push_back(3);
+	nums.push_back(4);
+	nums.push_back(-1);
+	nums.push_back(1);
+	
+	obj.firstMissingPositive(nums);
 	
 	return 0;
 }
