@@ -42,17 +42,11 @@
 #include "../Questions/CombinationSum/CombinationSum.cpp"
 #include "../Questions/CombinationSumII/CombinationSumII.cpp"
 #include "../Questions/FirstMissingPositive/FirstMissingPositive.cpp"
+#include "../Questions/TrappingRainWater/TrappingRainWater.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	FirstMissingPositive obj;
-	vector<int> nums;
-	nums.push_back(3);
-	nums.push_back(4);
-	nums.push_back(-1);
-	nums.push_back(1);
-	
-	obj.firstMissingPositive(nums);
+	TrappingRainWater obj;
 	
 	return 0;
 }
