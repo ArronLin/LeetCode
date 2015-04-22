@@ -39,11 +39,15 @@
 #include "../Questions/ValidSudoku/ValidSudoku.cpp"
 #include "../Questions/SudokuSolver/SudokuSolver.cpp"
 #include "../Questions/CountandSay/CountandSay.cpp"
+#include "../Questions/CombinationSum/CombinationSum.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	CountandSay obj;
-	string sRet = obj.countAndSay(1);
+	CombinationSum obj;
+	vector<int> candidates;
+	candidates.push_back(1); candidates.push_back(2);
+	obj.combinationSum(candidates, 2);
+	
 	return 0;
 }
 

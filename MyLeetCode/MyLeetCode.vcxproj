@@ -90,6 +90,7 @@
     <ClCompile Include="..\Questions\3Sum\3Sum.cpp" />
     <ClCompile Include="..\Questions\4Sum\4Sum.cpp" />
     <ClCompile Include="..\Questions\AddTwoNums\AddTwoNums.cpp" />
+    <ClCompile Include="..\Questions\CombinationSum\CombinationSum.cpp" />
     <ClCompile Include="..\Questions\ContainerWithMostWater\ContainerWithMostWater.cpp" />
     <ClCompile Include="..\Questions\DivideTwoIntegers\DivideTwoIntegers.cpp" />
     <ClCompile Include="..\Questions\GenerateParentheses\GenerateParentheses.cpp" />
