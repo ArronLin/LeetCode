@@ -3,49 +3,40 @@
 class WildcardMatching {
 public:
     bool isMatch(string s, string p) {
-		if (s.size() == 0 && p.size() == 0)
+        if(p.size() == 0)
+			return s.size() == 0;
+        
+		int nIdxP, nIdxS;
+		nIdxP = nIdxS = 0;
+		if(p[nIdxP] == '?')
 		{
-			return true;
-		}
-
-		if (p.size() == 0)
-		{
-			return false;
-		}
-
-		int idxS, idxP;
-		idxS = idxP = 0;
-		if (p[idxP] != '?' && p[idxP] != '*')
-		{
-			if (s[idxS] == 0 || s[idxS] != p[idxP])
+			if (s[nIdxS] != '\0')
+			{
+				return isMatch(s.substr(nIdxS+1), p.substr(nIdxP+1));
+			}
+			else
 			{
 				return false;
 			}
-			else
-			{
-				return isMatch(s.substr(idxS+1), p.substr(idxP+1));
-			}
-		}
-		else
-		{
-			if (p[idxP] == '?')
-			{
-				if (s[idxS] == 0)
-				{
-					return false;
-				}
-				else
-				{
-					return isMatch(s.substr(idxS+1), p.substr(idxP+1));
-				}
-			}
-			else
-			{
-				while(!isMatch(s.substr(idxS), p.substr(idxP+1)))
-				{
-					idxS++;
-				}
-			}
-		}
+		}	
+		else if(p[nIdxP] == '*')
+        {
+			while(p[nIdxP] == '*')
+				++nIdxP;
+			if(p[nIdxP] == '\0')
+                return true;
+			while(s[nIdxS] != '\0')
+            {
+				if(isMatch(s.substr(nIdxS), p.substr(nIdxP)))
+                    return true;
+				nIdxS++;
+            }
+			if(s[nIdxS] == '\0')
+                return false;
+        }
+        else
+        {
+			return (p[nIdxP] == s[nIdxS]) && isMatch(s.substr(nIdxS+1), p.substr(nIdxP+1));
+        }
     }
 };
