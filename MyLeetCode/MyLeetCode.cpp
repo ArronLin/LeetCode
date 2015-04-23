@@ -49,7 +49,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	WildcardMatching obj;
-	bool bRet = obj.isMatch("babbbbaabababaabbababaababaabbaabababbaaababbababaaaaaabbabaaaabababbabbababbbaaaababbbabbbbbbbbbbaabbb", "b**bb**a**bba*b**a*bbb**aba***babbb*aa****aabb*bbb***a");
+	bool bRet = obj.isMatch("", "***");
 
 	return 0;
 }
