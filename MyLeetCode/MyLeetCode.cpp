@@ -45,11 +45,11 @@
 #include "../Questions/TrappingRainWater/TrappingRainWater.cpp"
 #include "../Questions/MultiplyStrings/MultiplyStrings.cpp"
 #include "../Questions/WildcardMatching/WildcardMatching.cpp"
+#include "../Questions/JumpGame/JumpGame.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	WildcardMatching obj;
-	bool bRet = obj.isMatch("", "***");
+	JumpGame obj;
 
 	return 0;
 }
