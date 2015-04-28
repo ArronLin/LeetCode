@@ -2,19 +2,20 @@
 
 class JumpGame {
 public:
-	bool canJump(vector<int>& nums) {
-
-		// DP version
-		// 
-		vector<int> vSteps(n, 0);
-
-		for(int i = 1; i < n; ++i)
+    bool canJump(vector<int> &A) {
+        // Greedy version
+		// For each step, try to go to the furthest location
+		// pay attention to the phase "if (i <= furthestJump)", this ensures the jumps are contineous, not interrupted
+		int n = A.size();
+		int furthestJump = 0;
+		for (int i = 0; i < n; i++)
 		{
-			vSteps[i] = max(vSteps[i-1], A[i-1]) - 1;
-			if(vSteps[i] < 0)
-				return false;
+			if (i <= furthestJump)
+			{
+				furthestJump = max(furthestJump, i+A[i]);
+			}
 		}
 
-		return vSteps[n-1] >= 0;
-	}
+		return furthestJump >= n-1;
+    }
 };
