@@ -3,21 +3,19 @@
 class JumpGameII {
 public:
     int jump(vector<int>& nums) {
-		// Greedy version
-		// For each round, try to find the furthest location could jump
-		// Once it could reach the end of the range, it is the result.
+		// Greedy version 2:
+		// 
 		int n = nums.size();
-        int maxx=0,temp=0,num=0;
-        for(int i=0;i<n;)
+        int currentCover=0,lastCover=0,num=0;
+        for(int i=0;i<n;i++)
         {
-            if(temp>=n-1)break;
-            while(i<=temp)
+            if(lastCover>=n-1)break;
+            if(i > lastCover)
             {
-                maxx=max(maxx,i+nums[i]);
-                ++i;
+               num++;
+               lastCover=currentCover;                
             }
-            num++;
-            temp=maxx;            
+            currentCover=max(currentCover,i+nums[i]);
         }
         return num;       
     }
