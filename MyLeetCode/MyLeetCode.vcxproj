@@ -98,6 +98,7 @@
     <ClCompile Include="..\Questions\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="..\Questions\ImplementstrStr()\ImplementstrStr.cpp" />
     <ClCompile Include="..\Questions\IntegertoRoman\IntegertoRoman.cpp" />
+    <ClCompile Include="..\Questions\JumpGameII\JumpGameII.cpp" />
     <ClCompile Include="..\Questions\JumpGame\JumpGame.cpp" />
     <ClCompile Include="..\Questions\LetterCombinationsofaPhoneNumber\LetterCombinationsofaPhoneNumber.cpp" />
     <ClCompile Include="..\Questions\LongestCommonPrefix\LongestCommonPrefix.cpp" />

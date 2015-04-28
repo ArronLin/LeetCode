@@ -46,10 +46,14 @@
 #include "../Questions/MultiplyStrings/MultiplyStrings.cpp"
 #include "../Questions/WildcardMatching/WildcardMatching.cpp"
 #include "../Questions/JumpGame/JumpGame.cpp"
+#include "../Questions/JumpGameII/JumpGameII.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	JumpGame obj;
+	JumpGameII obj;
+	int ary[] = {2,3,1,1,4};
+	vector<int> nums(ary, ary+5);
+	obj.jump(nums);
 
 	return 0;
 }
