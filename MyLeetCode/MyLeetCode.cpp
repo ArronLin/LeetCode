@@ -48,10 +48,11 @@
 #include "../Questions/JumpGame/JumpGame.cpp"
 #include "../Questions/JumpGameII/JumpGameII.cpp"
 #include "../Questions/Permutations/Permutations.cpp"
+#include "../Questions/PermutationsII/PermutationsII.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Permutations obj;
+	PermutationsII obj;
 
 	return 0;
 }
