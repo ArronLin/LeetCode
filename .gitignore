@@ -1,0 +1,11 @@
+*.obj
+*.tlog
+*.exe
+*.ilk
+*.pdb
+*.opensdf
+*.sdf
+*.suo
+*.lastbuildstate
+*.idb
+*.log
