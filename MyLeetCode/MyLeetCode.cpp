@@ -51,9 +51,9 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	JumpGameII obj;
-	int ary[] = {1,2,0,1};
-	vector<int> nums(ary, ary+4);
-	obj.jump(nums);
+	int ary[] = {0};
+	vector<int> nums(ary, ary+1);
+	int ret = obj.jump(nums);
 
 	return 0;
 }
