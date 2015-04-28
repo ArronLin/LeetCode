@@ -111,6 +111,7 @@
     <ClCompile Include="..\Questions\MultiplyStrings\MultiplyStrings.cpp" />
     <ClCompile Include="..\Questions\NextPermutation\NextPermutation.cpp" />
     <ClCompile Include="..\Questions\PalindromeNumber\PalindromeNumber.cpp" />
+    <ClCompile Include="..\Questions\Permutations\Permutations.cpp" />
     <ClCompile Include="..\Questions\RegularExpressionMatching\RegularExpressionMatching.cpp" />
     <ClCompile Include="..\Questions\RemoveDuplicatesfromSortedArray\RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="..\Questions\RemoveNthNodeFromEndofList\RemoveNthNodeFromEndofList.cpp" />

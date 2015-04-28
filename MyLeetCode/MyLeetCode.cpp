@@ -47,13 +47,11 @@
 #include "../Questions/WildcardMatching/WildcardMatching.cpp"
 #include "../Questions/JumpGame/JumpGame.cpp"
 #include "../Questions/JumpGameII/JumpGameII.cpp"
+#include "../Questions/Permutations/Permutations.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	JumpGameII obj;
-	int ary[] = {0};
-	vector<int> nums(ary, ary+1);
-	int ret = obj.jump(nums);
+	Permutations obj;
 
 	return 0;
 }
