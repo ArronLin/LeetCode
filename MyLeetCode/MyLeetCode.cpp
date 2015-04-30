@@ -49,10 +49,11 @@
 #include "../Questions/JumpGameII/JumpGameII.cpp"
 #include "../Questions/Permutations/Permutations.cpp"
 #include "../Questions/PermutationsII/PermutationsII.cpp"
+#include "../Questions/RotateImage/RotateImage.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	PermutationsII obj;
+	RotateImage obj;
 
 	return 0;
 }

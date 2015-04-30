@@ -148,6 +148,9 @@
     <ClCompile Include="..\Questions\PermutationsII\PermutationsII.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="..\Questions\RotateImage\RotateImage.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">

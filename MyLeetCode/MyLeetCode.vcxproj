@@ -119,6 +119,7 @@
     <ClCompile Include="..\Questions\ReverseInteger\ReverseInteger.cpp" />
     <ClCompile Include="..\Questions\ReverseNodesink-Group\ReverseNodesink-Group.cpp" />
     <ClCompile Include="..\Questions\RomantoInteger\RomantoInteger.cpp" />
+    <ClCompile Include="..\Questions\RotateImage\RotateImage.cpp" />
     <ClCompile Include="..\Questions\SearchforaRange\SearchforaRange.cpp" />
     <ClCompile Include="..\Questions\SearchinRotatedSortedArray\SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="..\Questions\SearchInsertPosition\SearchInsertPosition.cpp" />
