@@ -113,6 +113,7 @@
     <ClCompile Include="..\Questions\PalindromeNumber\PalindromeNumber.cpp" />
     <ClCompile Include="..\Questions\PermutationsII\PermutationsII.cpp" />
     <ClCompile Include="..\Questions\Permutations\Permutations.cpp" />
+    <ClCompile Include="..\Questions\Pow(x, n)\Pow(x, n).cpp" />
     <ClCompile Include="..\Questions\RegularExpressionMatching\RegularExpressionMatching.cpp" />
     <ClCompile Include="..\Questions\RemoveDuplicatesfromSortedArray\RemoveDuplicatesfromSortedArray.cpp" />
     <ClCompile Include="..\Questions\RemoveNthNodeFromEndofList\RemoveNthNodeFromEndofList.cpp" />

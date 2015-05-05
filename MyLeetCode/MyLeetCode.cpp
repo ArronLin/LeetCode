@@ -50,10 +50,11 @@
 #include "../Questions/Permutations/Permutations.cpp"
 #include "../Questions/PermutationsII/PermutationsII.cpp"
 #include "../Questions/RotateImage/RotateImage.cpp"
+#include "../Questions/Pow(x, n)/Pow(x, n).cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	RotateImage obj;
+	Pow_x_n obj;
 
 	return 0;
 }

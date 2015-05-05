@@ -151,6 +151,9 @@
     <ClCompile Include="..\Questions\RotateImage\RotateImage.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="..\Questions\Pow(x, n)\Pow(x, n).cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
