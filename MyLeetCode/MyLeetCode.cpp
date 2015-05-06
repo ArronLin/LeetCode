@@ -55,6 +55,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
 	Pow_x_n obj;
+	obj.myPow(8, 3);
 
 	return 0;
 }
