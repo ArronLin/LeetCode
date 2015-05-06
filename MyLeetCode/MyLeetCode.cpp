@@ -51,11 +51,11 @@
 #include "../Questions/PermutationsII/PermutationsII.cpp"
 #include "../Questions/RotateImage/RotateImage.cpp"
 #include "../Questions/Pow(x, n)/Pow(x, n).cpp"
+#include "../Questions/N-Queens/N-Queens.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Pow_x_n obj;
-	obj.myPow(8, 3);
+	N_Queens obj;
 
 	return 0;
 }
