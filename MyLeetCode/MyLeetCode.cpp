@@ -52,10 +52,12 @@
 #include "../Questions/RotateImage/RotateImage.cpp"
 #include "../Questions/Pow(x, n)/Pow(x, n).cpp"
 #include "../Questions/N-Queens/N-Queens.cpp"
+#include "../Questions/N-Queens II/N-Queens II.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	N_Queens obj;
+	N_Queens_II obj;
+	obj.totalNQueens(1);
 
 	return 0;
 }

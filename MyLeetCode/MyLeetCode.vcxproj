@@ -109,6 +109,7 @@
     <ClCompile Include="..\Questions\MergekSortedLists\MergekSortedLists.cpp" />
     <ClCompile Include="..\Questions\MergeTwoSortedLists\MergeTwoSortedLists.cpp" />
     <ClCompile Include="..\Questions\MultiplyStrings\MultiplyStrings.cpp" />
+    <ClCompile Include="..\Questions\N-Queens II\N-Queens II.cpp" />
     <ClCompile Include="..\Questions\N-Queens\N-Queens.cpp" />
     <ClCompile Include="..\Questions\NextPermutation\NextPermutation.cpp" />
     <ClCompile Include="..\Questions\PalindromeNumber\PalindromeNumber.cpp" />
