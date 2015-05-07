@@ -160,6 +160,9 @@
     <ClCompile Include="..\Questions\N-Queens II\N-Queens II.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="..\Questions\MaximumSubarray\MaximumSubarray.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">

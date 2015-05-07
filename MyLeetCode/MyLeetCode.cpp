@@ -53,11 +53,12 @@
 #include "../Questions/Pow(x, n)/Pow(x, n).cpp"
 #include "../Questions/N-Queens/N-Queens.cpp"
 #include "../Questions/N-Queens II/N-Queens II.cpp"
+#include "../Questions/MaximumSubarray/MaximumSubarray.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	N_Queens_II obj;
-	obj.totalNQueens(1);
+	MaximumSubarray obj;
+	
 
 	return 0;
 }
