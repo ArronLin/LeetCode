@@ -54,10 +54,11 @@
 #include "../Questions/N-Queens/N-Queens.cpp"
 #include "../Questions/N-Queens II/N-Queens II.cpp"
 #include "../Questions/MaximumSubarray/MaximumSubarray.cpp"
+#include "../Questions/SpiralMatrix/SpiralMatrix.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MaximumSubarray obj;
+	SpiralMatrix obj;
 	
 
 	return 0;

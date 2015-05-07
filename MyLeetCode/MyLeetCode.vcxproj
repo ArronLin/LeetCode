@@ -127,6 +127,7 @@
     <ClCompile Include="..\Questions\SearchforaRange\SearchforaRange.cpp" />
     <ClCompile Include="..\Questions\SearchinRotatedSortedArray\SearchinRotatedSortedArray.cpp" />
     <ClCompile Include="..\Questions\SearchInsertPosition\SearchInsertPosition.cpp" />
+    <ClCompile Include="..\Questions\SpiralMatrix\SpiralMatrix.cpp" />
     <ClCompile Include="..\Questions\StringtoInteger\StringtoInteger.cpp" />
     <ClCompile Include="..\Questions\SubstringwithConcatenationofAllWords\SubstringwithConcatenationofAllWords.cpp" />
     <ClCompile Include="..\Questions\SudokuSolver\SudokuSolver.cpp" />
