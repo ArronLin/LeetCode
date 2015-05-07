@@ -55,12 +55,12 @@
 #include "../Questions/N-Queens II/N-Queens II.cpp"
 #include "../Questions/MaximumSubarray/MaximumSubarray.cpp"
 #include "../Questions/SpiralMatrix/SpiralMatrix.cpp"
+#include "../Questions/MergeIntervals/MergeIntervals.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	SpiralMatrix obj;
+	MergeIntervals obj;
 	
-
 	return 0;
 }
 

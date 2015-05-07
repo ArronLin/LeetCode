@@ -107,6 +107,7 @@
     <ClCompile Include="..\Questions\LongestValidParentheses\LongestValidParentheses.cpp" />
     <ClCompile Include="..\Questions\MaximumSubarray\MaximumSubarray.cpp" />
     <ClCompile Include="..\Questions\MedianofTwoSortedArrays\MedianofTwoSortedArrays.cpp" />
+    <ClCompile Include="..\Questions\MergeIntervals\MergeIntervals.cpp" />
     <ClCompile Include="..\Questions\MergekSortedLists\MergekSortedLists.cpp" />
     <ClCompile Include="..\Questions\MergeTwoSortedLists\MergeTwoSortedLists.cpp" />
     <ClCompile Include="..\Questions\MultiplyStrings\MultiplyStrings.cpp" />
