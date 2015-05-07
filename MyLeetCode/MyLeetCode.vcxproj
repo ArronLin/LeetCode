@@ -97,6 +97,7 @@
     <ClCompile Include="..\Questions\FirstMissingPositive\FirstMissingPositive.cpp" />
     <ClCompile Include="..\Questions\GenerateParentheses\GenerateParentheses.cpp" />
     <ClCompile Include="..\Questions\ImplementstrStr()\ImplementstrStr.cpp" />
+    <ClCompile Include="..\Questions\InsertInterval\InsertInterval.cpp" />
     <ClCompile Include="..\Questions\IntegertoRoman\IntegertoRoman.cpp" />
     <ClCompile Include="..\Questions\JumpGameII\JumpGameII.cpp" />
     <ClCompile Include="..\Questions\JumpGame\JumpGame.cpp" />

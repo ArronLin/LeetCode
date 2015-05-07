@@ -56,10 +56,11 @@
 #include "../Questions/MaximumSubarray/MaximumSubarray.cpp"
 #include "../Questions/SpiralMatrix/SpiralMatrix.cpp"
 #include "../Questions/MergeIntervals/MergeIntervals.cpp"
+#include "../Questions/InsertInterval/InsertInterval.cpp"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	MergeIntervals obj;
+	InsertInterval obj;
 	
 	return 0;
 }

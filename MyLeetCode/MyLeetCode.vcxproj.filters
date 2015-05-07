@@ -169,6 +169,9 @@
     <ClCompile Include="..\Questions\MergeIntervals\MergeIntervals.cpp">
       <Filter>Questions</Filter>
     </ClCompile>
+    <ClCompile Include="..\Questions\InsertInterval\InsertInterval.cpp">
+      <Filter>Questions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
